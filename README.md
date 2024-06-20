@@ -38,7 +38,7 @@
         <!-- 这里使用的是表格布局 -->
         <div id="tr">
           <article id="individulprint">
-            <img src="../image/IMG_20240617_135216.png" alt="显示错误">
+            <img src="../web期末/image/IMG_20240617_135216.png" alt="显示错误">
           </article>
           <article id="introduce">
             <ul>
