@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/inttroduce.css"> <!-- 链接css -->
+</head>
+<body>
+<!-- 主体布局是凝胶布局 -->    
+    <canvas id="canvas" height="1000" width="1644"></canvas>
+        <!-- 创建一个画布 -->
+<!-- 页眉区 -->
+<!-- begin -->
+    <header id="top">
+        个人简介
+      </header>
+<!-- end -->
+<!-- 导航区 -->
+<!-- begin -->
+      <nav id="nav">
+              <ul class="ul_nav">
+                  <li class="list"><a href="./index.html">个人首页</a></li>               
+                  <li class="list"><a href="./introduce.html">个人简介</a></li>
+                  <li class="list"><a href="./habit.html">个人爱好</a></li>
+                  <li class="list"><a href="./picture.html">生活快照</a></li>
+                  <li class="list"><a href="./career.html">我的童年</a></li>
+              </ul>
+      </nav>
+<!-- end --> 
+<!-- 表格内容 -->
+<!-- begin -->
+    <table  align="center">
+        <caption>个人简历</caption>
+        <!-- 表格的标题 -->
+        <!-- 下面每一对tr代表表格的一行 -->
+        <tr>
+            <th align="center" valign="middle">姓名</th>
+            <td align="center" valign="middle">颜盛杰</td>
+            <th align="center" valign="middle">性别</th>
+            <td align="center" valign="middle">男</td>
+            <th align="center" valign="middle">出生年月</th>
+            <td align="center" valign="middle">2004.07.15</td>
+        </tr>
+        <tr>
+            <th align="center" valign="middle">民族</th>
+            <td align="center" valign="middle">汉族</td>
+            <th align="center" valign="middle">政治面貌</th>
+            <td align="center" valign="middle">共青团员</td>
+            <th align="center" valign="middle">身高</th>
+            <td align="center" valign="middle">172</td>
+        </tr>
+        <tr>
+            <th align="center" valign="middle">学制</th>
+            <td align="center" valign="middle">4</td>
+            <th align="center" valign="middle">学历</th>
+            <td align="center" valign="middle">本科</td>
+            <th align="center" valign="middle">户籍</th>
+            <td align="center" valign="middle">陕西安康</td>
+        </tr>
+        <tr>
+            <th align="center" valign="middle">专业</th>
+            <td align="center" valign="middle">信息管理与信息系统</td>
+            <!-- colspan是指合并竖着的列 -->
+            <th colspan="2" align="center" valign="middle">在读院校</th>
+            <td colspan="2" align="center" valign="middle">中南财经政法大学</td>
+        </tr>
+        <tr>
+            <th colspan="6" align="center" valign="middle">技能，特长或爱好</th>
+        </tr>
+        <tr>
+            <th colspan="3" align="center" valign="middle">外语等级</th>
+            <td colspan="3" align="center" valign="middle">英语四级</td>
+        </tr>
+        <tr>
+            <th colspan="6" align="center" valign="middle">个人履历</th>
+        </tr>
+        <tr>
+            <td colspan="6" align="center" valign="middle">暂无</td>
+        </tr>
+        <tr>
+            <th colspan="6" align="center" valign="middle">联系方式</th>
+        </tr>
+        <tr>
+            <th align="center" valign="middle">通讯地址</th>
+            <td colspan="2" align="center" valign="middle">湖北省武汉市中南财经政法大学南湖校区</td>
+            <th  align="center" valign="middle">联系电话</th>
+            <td colspan="2" align="center" valign="middle">183****0538</td>
+        </tr>
+        <tr>
+            <th align="center" valign="middle">E-mail</th>
+            <td colspan="2" align="center" valign="middle">2856****42@qq.com</td>
+            <th  align="center" valign="middle">邮编</th>
+            <td colspan="2" align="center" valign="middle">未知</td>
+        </tr>
+        <tr>
+            <th colspan="6" align="center" valign="middle">自我评价</th>
+        </tr>
+        <!-- rowspan是合并横着的行，不过这没发挥啥作用 -->
+        <tr>
+            <td rowspan="3" colspan="6" align="center" valign="middle">nice</td>
+        </tr>
+
+    </table>
+<!-- end --> 
+<!-- 页脚区 -->
+<!-- begin -->
+    <footer id="bottom">
+        制作人：颜盛杰<br>
+        @2024--06--16
+    </footer>
+<!-- end --> 
+<!-- canvas脚本区（首页已备注，故不在过多备注） -->
+<!-- begin -->
+    <script>
+        var cvs = document.getElementById('canvas');
+        var ctx = cvs.getContext('2d');
+     
+        var gradient1 = ctx.createLinearGradient(0, 0, 1644, 0);
+        // 用ctx的createLinearGradient方法创建一个线性渐变对象，并赋值
+        gradient1.addColorStop(0, "#fffc96");
+        // 用gradient1的addColorStop方法添加渐变颜色，下同
+        gradient1.addColorStop(1, "skyblue");
+        ctx.beginPath();
+        // 用ctx的beginPath方法开始绘制路径
+        ctx.fillStyle = gradient1;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fill();
+        // 用ctx的fill方法填充路径
+    </script>
+<!-- end -->
+</body>
+</html>
