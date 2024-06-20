@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人首页</title>
-    <link rel="stylesheet" href="../css/main.css"><!-- 链接首页的css -->
+    <link rel="stylesheet" href="./css/main.css"><!-- 链接首页的css -->
 </head>
 <body>
 <!-- 主体布局是凝胶布局 -->
@@ -20,11 +20,11 @@
     <nav id="nav">
 
             <ul class="ul_nav">
-                <li class="list"><a href="./index.html">个人首页</a></li>               
-                <li class="list"><a href="./introduce.html">个人简介</a></li>
-                <li class="list"><a href="./habit.html">个人爱好</a></li>
-                <li class="list"><a href="./picture.html">生活快照</a></li>
-                <li class="list"><a href="./career.html">我的童年</a></li>
+                <li class="list"><a href="./index/index.html">个人首页</a></li>               
+                <li class="list"><a href="./index/introduce.html">个人简介</a></li>
+                <li class="list"><a href="./index/habit.html">个人爱好</a></li>
+                <li class="list"><a href="./index/picture.html">生活快照</a></li>
+                <li class="list"><a href="./index/career.html">我的童年</a></li>
             </ul>
             <!-- 用列表来创建导航区 -->
     </nav>
