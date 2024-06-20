@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人首页</title>
-    <link rel="stylesheet" href="../css/main.css"><!-- 链接首页的css -->
+    <link rel="stylesheet" href="../web期末/css/main.css"><!-- 链接首页的css -->
 </head>
 <body>
 <!-- 主体布局是凝胶布局 -->
