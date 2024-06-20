@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人首页</title>
-    <link rel="stylesheet" href="../web期末/css/main.css"><!-- 链接首页的css -->
+    <link rel="stylesheet" href="./web期末/css/main.css"><!-- 链接首页的css -->
 </head>
 <body>
 <!-- 主体布局是凝胶布局 -->
@@ -21,11 +21,11 @@
     <nav id="nav">
 
             <ul class="ul_nav">
-                <li class="list"><a href="./index.html">个人首页</a></li>               
-                <li class="list"><a href="./introduce.html">个人简介</a></li>
-                <li class="list"><a href="./habit.html">个人爱好</a></li>
-                <li class="list"><a href="./picture.html">生活快照</a></li>
-                <li class="list"><a href="./career.html">我的童年</a></li>
+                <li class="list"><a href="./web期末/image/index.html">个人首页</a></li>               
+                <li class="list"><a href="./web期末/image/introduce.html">个人简介</a></li>
+                <li class="list"><a href="./web期末/image/habit.html">个人爱好</a></li>
+                <li class="list"><a href="./web期末/image/picture.html">生活快照</a></li>
+                <li class="list"><a href="./web期末/image/career.html">我的童年</a></li>
             </ul>
             <!-- 用列表来创建导航区 -->
     </nav>
@@ -38,7 +38,7 @@
         <!-- 这里使用的是表格布局 -->
         <div id="tr">
           <article id="individulprint">
-            <img src="../web期末/image/IMG_20240617_135216.png" alt="显示错误">
+            <img src="./web期末/image/IMG_20240617_135216.png" alt="显示错误">
           </article>
           <article id="introduce">
             <ul>
