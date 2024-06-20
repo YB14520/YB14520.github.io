@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生活快照</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/picture.css"><!-- 链接css -->
+</head>
+<body>
+    <!-- 主体布局是凝胶布局 -->   
+    <canvas id="canvas" height="1000" width="1644"></canvas>
+    <!-- 创建一个画布 -->
+    <!-- 页眉区 -->
+    <!-- begin -->
+    <header id="top">
+        生活快照
+    </header>
+    <!-- end -->
+    <!-- 导航区 -->
+    <!-- begin -->
+    <nav id="nav">
+            <ul class="ul_nav">
+                <li class="list"><a href="./index.html">个人首页</a></li>               
+                <li class="list"><a href="./introduce.html">个人简介</a></li>
+                <li class="list"><a href="./habit.html">个人爱好</a></li>
+                <li class="list"><a href="./picture.html">生活快照</a></li>
+                <li class="list"><a href="./career.html">我的童年</a></li>
+            </ul>
+    </nav>
+    <!-- end --> 
+    <!-- 表格内容（introduce中已解释，故不做解释） -->
+    <!-- begin -->
+    <table  align="center">
+        <caption>生活快照</caption>
+        <tr>
+            <td align="center" valign="middle"><img src="../image/1 (2).jpg" alt=""></td>
+            <th align="center" valign="middle"><img src="../image/1 (1).jpg" alt=""></th>
+            <td align="center" valign="middle"><img src="../image/1 (3).jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle"><img src="../image/1 (9).jpg" alt=""></td>
+            <th align="center" valign="middle"><img src="../image/1 (7).jpg" alt=""></th>
+            <td align="center" valign="middle"><img src="../image/1 (4).jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle"><img src="../image/1 (5).jpg" alt=""></td>
+            <th align="center" valign="middle"><img src="../image/1 (8).jpg" alt=""></th>
+            <td align="center" valign="middle"><img src="../image/1 (6).jpg" alt=""></td>
+        </tr>
+    </table>
+    <!-- end --> 
+    <!-- 页脚区 -->
+    <!-- begin -->
+    <footer id="bottom">
+        制作人：颜盛杰<br>
+        @2024--06--16
+    </footer>
+    <!-- end --> 
+    <!-- canvas脚本区（首页已备注，故不在过多备注） -->
+    <!-- begin -->
+    <script>
+        var cvs = document.getElementById('canvas');
+        var ctx = cvs.getContext('2d');
+     
+        var gradient1 = ctx.createLinearGradient(0, 0, 1644, 0);
+        gradient1.addColorStop(0, "skyblue");
+        gradient1.addColorStop(1, "#fffc96");
+        ctx.beginPath();
+        ctx.fillStyle = gradient1;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fill();
+    </script>
+</body>
+</html>
